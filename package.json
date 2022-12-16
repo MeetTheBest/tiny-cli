@@ -1,0 +1,20 @@
+{
+    "name": "imtiny-cli",
+    "version": "0.0.2",
+    "description": "tinypng-cli 图片压缩工具",
+    "main": "index.js",
+    "bin": {
+        "tiny": "./index.js"
+    },
+    "scripts": {
+        "test": "node ./index.js"
+    },
+    "author": "jfj",
+    "license": "ISC",
+    "dependencies": {
+        "cli-table2": "^0.2.0",
+        "commander": "^9.2.0",
+        "ora": "^3.4.0",
+        "promise.allsettled": "^1.0.5"
+    }
+}
