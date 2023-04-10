@@ -140,7 +140,7 @@ function uploadFile(imgPath) {
         const req = https.request({
             method: 'POST',
             hostname: 'tinypng.com',
-            path: '/web/shrink',
+            path: '/backend/opt/shrink',
             headers: {
                 rejectUnauthorized: false,
                 'X-Forwarded-For': randomNum,
